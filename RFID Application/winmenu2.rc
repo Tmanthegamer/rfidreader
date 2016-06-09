@@ -1,0 +1,13 @@
+#include "Application.h"
+
+MYMENU MENU
+{
+	POPUP "&Menu"
+	{
+		MENUITEM "&Connect", IDM_CONN
+		MENUITEM "&Disconnect", IDM_DISC
+		MENUITEM "&Clear Screen", IDM_CLRSCN
+		MENUITEM "&Help", IDM_HELP
+		MENUITEM "&Exit", IDM_EXIT
+	}
+}
